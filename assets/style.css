@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --vermelho:#8E2424;
+    --preto: #101828;
+    --cinza: #667085;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.about_us{
+    text-align: center;
+    padding: 96px;
+}
+.about_us h2{
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about_us h1{
+    padding: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--preto);
+}
+.about_us p{
+    font-size: 14px;
+    color: var(--cinza);
+    margin: 0 20% 0 20%;
+}
+.content_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.card{
+    padding: 30px;
+}
+.card h2{
+    font-size: 50px;
+    color: var(--vermelho);
+}
+.card_subtitle{
+    font-size: 18px;
+    color: var(--preto);
+    font-weight: 700;
+}
+.card_content{
+    font-size: 14px;
+    color: var(--cinza) ;
+}
